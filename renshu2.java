@@ -8,6 +8,7 @@ public class renshu2 {
         int num = scan1.nextInt();
         String txt = scan2.next();
         System.out.println(txt + "さん"+num + "歳") ;
+        scan1.close();
         scan2.close();
 
 

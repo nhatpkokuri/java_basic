@@ -12,6 +12,8 @@ public class javaScanner {
         String data = sd.next();
         String s = "こんにちは " + data + "さん";
         System.out.println(s + data);
+
+        scan.close();
         sd.close();
         
 
